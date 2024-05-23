@@ -90,6 +90,6 @@ clear_button = tk.Button(root, text="Clear", command=clear_fields, bg='#f44336',
 clear_button.grid(row=3, column=0, columnspan=2, padx=10, pady=10)
 
 result_label = tk.Label(root, text="", bg='#f0f0f0', fg='#333')
-result_label.grid(row=5, column=0, columnspan=2, padx=10, pady=10)
+result_label.grid(row=4, column=0, columnspan=2, padx=10, pady=10)
 
 root.mainloop()
